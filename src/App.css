@@ -1,0 +1,277 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.CardHolder{
+  display: flex;
+  flex-direction: column;
+}
+
+.CardHoldername{
+  color:#21092F;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 91px;
+  margin-left: 24px;
+}
+
+.HolderInput{
+  width: 327px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #DFDEE0);
+  background: var(--White, #FFF);
+  margin-top: 9px;
+  margin-left: 24px;
+  padding-left: 16px;
+  color: var(--Deep-Violet, #21092F);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.HolderInput::placeholder{
+  color: var(--Deep-Violet, #21092F);
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.Cardnumeber{
+  color: var(--Deep-Violet, #21092F);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.date{
+  color: var(--Deep-Violet, #21092F);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.Expdate{
+   display: flex;
+   flex-direction: row;
+}
+
+.Inputs{
+  display: flex;
+  column-gap: 8px;
+  margin-left: 24px;
+  margin-top: 9px;
+}
+
+.MM{
+  padding-top: 5px;
+  padding-left: 18px;
+  width: 72px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #DFDEE0);
+  background: var(--White, #FFF);
+  color: var(--Deep-Violet, #21092F);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.YY::placeholder{
+  color: var(--Deep-Violet, #21092F);
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.CVCs{
+  margin-left: 11px;
+}
+
+.CVCP{
+  margin-top: 20px;
+  color: var(--Deep-Violet, #21092F);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.CVCinput{
+  padding-left: 16px;
+  margin-top: 9px;
+  width: 164px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #DFDEE0);
+  background: var(--White, #FFF);
+  color: var(--Deep-Violet, #21092F);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.CVCinput::placeholder{
+  color: var(--Deep-Violet, #21092F);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.CONFIRM{
+  width: 327px;
+  height: 53px;
+  border-radius: 8px;
+  background: var(--Deep-Violet, #21092F);
+  margin-left: 24px;
+  margin-top: 28px;
+  color: var(--White, #FFF);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.Thank{
+  margin-top: 75px;
+  margin-left: 148px;
+}
+
+.THANKS{
+  width: 327px;
+  color: var(--Deep-Violet, #21092F);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 3.422px;
+  margin-left: 24px;
+  margin-top: 35px;
+}
+
+
+.added{
+  color: var(--Purplish-Grey, #8F8694);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.Continue2{
+  border: none;
+  width: 327px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Deep-Violet, #21092F);
+  color: var(--White, #FFF);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-left: 28px;
+}
+
+
+.error{
+  color: var(--Red, #FF5050);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.er1{
+  position: absolute;
+  left: 260px;
+  top: 403px;
+}
+
+.er2{
+  position: absolute;
+  left: 260px;
+  top: 490px;
+}
+
+.er3{
+  font-size: 10px;
+  position: absolute;
+  left: 25px;
+  top: 582px;
+}
+
+.er4{
+  font-size: 10px;
+  position: absolute;
+  left: 106px;
+  top: 582px;
+}
+
+.er5{
+  font-size: 12px;
+  position: absolute;
+  left: 262px;
+  top: 582px;
+}
+
+
+@media (width > 1439px) {
+
+ .rame{
+  position: absolute;
+  top: 150px;
+  left: 300px;
+ }
+
+ .rame2{
+  position: absolute;
+  top: 160px;
+  left: 300px;
+ }
+
+ body{
+  overflow: none;
+ }
+
+ .er1{
+  position: absolute;
+  left: 260px;
+  top: 164px;
+}
+
+.er2{
+  position: absolute;
+  left: 260px;
+  top: 255px;
+}
+
+.er3{
+  font-size: 10px;
+  position: absolute;
+  left: 25px;
+  top: 345px;
+}
+
+.er4{
+  font-size: 10px;
+  position: absolute;
+  left: 106px;
+  top: 345px;
+}
+
+.er5{
+  font-size: 12px;
+  position: absolute;
+  left: 262px;
+  top: 345px;
+}
+}
+

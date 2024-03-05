@@ -1,0 +1,192 @@
+.PurpleBackground{
+    background-image: url("/public/PurpleBackground.svg");
+    width: 375px;
+    height: 240px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .Backofthecard{
+    z-index: 1;
+    width: 286px;
+    height: 157px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: linear-gradient(169deg, #FFF 5%, #D2D3D9 91.69%);
+    position: absolute;
+    top: 32px;
+    left: 73px;
+  }
+  
+  .Blackline{
+    width: 286px;
+    height: 34.604px;
+    flex-shrink: 0;
+    background: #2F2F2F;
+    margin-top: 15px;
+  }
+
+
+  .GreyOutPut{
+    position: absolute;
+    width: 230.975px;
+    height: 29.739px;
+    flex-shrink: 0;
+    background-color: #ADB5BE;
+    border-radius: 6px;
+    top: 65px;
+    left: 29px;
+  }
+
+  .CVC{
+    color: #FFF;
+    text-align: right;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1.286px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-right: 10px;
+  }
+
+
+  .Frontofthecard{
+    z-index: 2;
+    position: absolute;
+    width: 285px;
+    height: 156.208px;
+    background-image: url("/public/Background.svg");
+    margin-left: 17px;
+    margin-top: 126px;
+  }
+
+  .Circles{
+    margin-left: 19px;
+    margin-top: 16px;
+  }
+
+  .Cardnumber{
+    color:#FFF;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    margin-left: 19px;
+    margin-top: 37px;
+  }
+
+  .Name{
+    color: #FFF;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1.286px;
+    text-transform: uppercase;
+    margin-left: 19px;
+    margin-top: 17px;
+  }
+
+
+  .DATE{
+    position: absolute;
+    left: 232px;
+    top: 126px;
+    color: var(--White, #FFF);
+    text-align: right;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1.286px;
+    text-transform: uppercase;
+  }
+
+
+  @media (width > 1439px) {
+    body {
+      width: 100%;
+    }
+    .PurpleBackground{
+      background-image: url("/public/desktopbc.svg");
+      width: 483px;
+      height: 762px;
+      flex-shrink: 0;
+      position: absolute;
+      left: -150%;
+    }
+    .Frontofthecard{
+      z-index: 2;
+      position: absolute;
+      width: 447px;
+      height: 245px;
+      background-image: url("/public/Background.svg");
+      margin-left: 164px;
+      margin-top: 187px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .Circles{
+      width: 84px;
+      height: 47px;
+      margin-top: 28px;
+      margin-left: 32px;
+    }
+    
+  .Cardnumber{
+    color:#FFF;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 3.422px;
+    margin-left: 32px;
+    margin-top: 64px;
+  }
+  .Name{
+    color: var(--White, #FFF);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-left: 34px;
+  }
+  .DATE{
+    position: absolute;
+    color: var(--White, #FFF);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    left: 350px;
+  }
+  .Backofthecard{
+    width: 447px;
+    height: 245px;
+    top: 469px;
+    left: 258px;
+  }
+  .Blackline{
+    width: 447px;
+    height: 54px;
+    margin-top: 25px;
+  }
+  .GreyOutPut{
+    width: 361px;
+    height: 38px;
+    top: 110px;
+    left: 45px;
+  }
+  .CVC {
+    color: var(--White, #FFF);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .Frontofthecard{
+    margin-top: 135px;
+  }
+
+  .Backofthecard {
+    top: 415px;
+  }
+}
